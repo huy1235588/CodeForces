@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <main>
+        <form id="form-input" onsubmit="onSubmit(event)">
+            <label class="label" for="input-form" id="label">Input: </label>
+            <input id="input-form" class="input" placeholder="Enter your text" type="text" autocomplete="off"
+                required />
+            <button id="resetButton" type="button" style="display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                        d="m12.71 12 8.15 8.15-.71.71L12 12.71l-8.15 8.15-.71-.71L11.29 12 3.15 3.85l.71-.71L12 11.29l8.15-8.15.71.71L12.71 12z">
+                    </path>
+                </svg>
+            </button>
+            <button id="sendButton" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                    <path fill="none"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                    </path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="33.67" stroke="#6c6c6c"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                    </path>
+                </svg>
+            </button>
+        </form>
+        <p>Out put:</p>
+        <p class="output">
+            <span id="output">
+
+            </span>
+        </p>
+    </main>
+</body>
+<script src="../template.js"></script>
+
+</html>

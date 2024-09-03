@@ -1,0 +1,140 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    box-sizing: border-box;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    max-width: 70%;
+    margin: auto;
+}
+
+button {
+    font-size: 1em;
+    font-weight: 500;
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    text-align: unset;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+
+.label {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    top: -30px;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.input {
+    background-color: #010201;
+    border: none;
+    padding: 7px;
+    width: 85%;
+    height: 56px;
+    border-radius: 10px;
+    color: white;
+    padding-inline: 1.5rem 13%;
+    font-size: 18px;
+}
+
+.input::placeholder {
+    color: #6d6d6d;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#form-input {
+    position: relative;
+    width: 100%;
+    margin: 60px auto 0;
+}
+
+#resetButton {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    right: 3.25rem;
+    padding: 0 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#resetButton svg {
+    height: 18px;
+    transition: all 0.3s;
+    width: 25px;
+    height: 25px;
+}
+
+#resetButton svg path {
+    transition: all 0.3s;
+    fill: #3c3c3c;
+    stroke: rgb(63, 63, 63);
+}
+
+#resetButton:hover svg path {
+    fill: #3c3c3c;
+    stroke: white;
+}
+
+#sendButton {
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1rem;
+}
+
+#sendButton svg {
+    height: 18px;
+    transition: all 0.3s;
+}
+
+#sendButton svg path {
+    transition: all 0.3s;
+}
+
+#sendButton:hover svg path {
+    fill: #3c3c3c;
+    stroke: white;
+}
+
+.output{
+    background-color: #363636;
+    min-height: 60px;
+    font-size: 40px;
+}
+
+.output span {
+    margin-left: 15px;
+}

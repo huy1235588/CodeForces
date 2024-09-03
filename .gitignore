@@ -1,0 +1,133 @@
+desktop.ini
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Bỏ qua các thư mục build
+bin/
+obj/
+out/
+packages/
+*.nupkg
+
+# Bỏ qua các file cấu hình cá nhân của IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Bỏ qua các file cấu hình nhạy cảm
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.vsix
+*.vscode/
+
+# Bỏ qua các file tạm thời và cache
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Bỏ qua các thư mục và file cụ thể của các công cụ và nền tảng
+*.rpt
+*.rdlc
+*.d.ts
+
+# Bỏ qua các thư mục và file của các công cụ build
+bower_components/
+node_modules/
+dist/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Nếu bạn sử dụng Docker, bỏ qua các file Docker
+Dockerfile
+docker-compose.yml
+
+# Bỏ qua các file và thư mục cụ thể của .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Bỏ qua các file và thư mục cụ thể của .NET 5/6/7/8 và ASP.NET Core
+*.dbmdl
+*.bak
+*.sql
+*.sqlproj
+*.vscode/
+
+# Bỏ qua các file và thư mục cụ thể của Windows
+Thumbs.db
+Desktop.ini
+
+# Bỏ qua các file và thư mục cụ thể của macOS
+.DS_Store
+
+# Bỏ qua các file và thư mục cụ thể của Linux
+*.swp
+
+# Bỏ qua tất cả các file .gitignore
+*.gitignore
+
+# Nhưng giữ lại file .gitignore gốc
+!/.gitignore
+
+Cpp/**/*.exe
+
+CSharp/**/*.sln
+CSharp/**/*.csproj
+CSharp/**/App.config
+CSharp/**/Assemblyinfo.cs
+
+Java/.idea/*
+
+Kotlin/**/*/.idea/*
+pom.xml
