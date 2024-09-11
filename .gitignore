@@ -127,6 +127,7 @@ CSharp/**/*.csproj
 CSharp/**/App.config
 CSharp/**/Assemblyinfo.cs
 
+Java/*/.idea/*
 Java/.idea/*
 
 Kotlin/**/*/.idea/*
