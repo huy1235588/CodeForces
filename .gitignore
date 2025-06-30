@@ -132,3 +132,6 @@ Java/.idea/*
 
 .idea/
 pom.xml
+
+.vscode
+.obsidian

@@ -1,0 +1,98 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 100,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    // C++ specific settings
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "D:\\Program Files\\MSYS2\\mingw64\\bin\\g++.exe",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100 }",
+    // File associations
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp",
+        "*.hpp": "cpp",
+        "*.c": "c",
+        "*.py": "python",
+        "*.java": "java",
+        "*.js": "javascript",
+        "*.go": "go",
+        "*.kt": "kotlin"
+    },
+    // Auto save
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // Terminal settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontSize": 14,
+    // Explorer settings
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    // Search settings
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/bin": true,
+        "**/obj": true,
+        "**/*.exe": true,
+        "**/*.o": true
+    },
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // Competitive Programming specific
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++17 -O2 -Wall -Wextra -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "python -u",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    // Leetcode settings
+    "leetcode.defaultLanguage": "cpp",
+    "leetcode.workspaceFolder": "01-CORE-LEARNING/practice",
+    // Extensions settings
+    "emmet.includeLanguages": {
+        "markdown": "html"
+    },
+    // Workspace specific settings
+    "workbench.colorTheme": "Dark+ (default dark)",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 20,
+    "workbench.startupEditor": "readme",
+    // Language specific settings
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.tabSize": 4
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabSize": 4
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    }
+}
