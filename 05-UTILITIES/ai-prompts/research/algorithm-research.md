@@ -236,6 +236,189 @@ Analysis framework:
 Provide detailed comparison table và specific recommendations for when to use each algorithm trong competitive programming context.
 ```
 
+## 7. Algorithm Documentation Generator
+
+```
+Act as a technical writer specializing in competitive programming documentation. 
+
+I need you to create comprehensive documentation for {ALGORITHM_NAME} algorithm.
+
+Target audience: {SKILL_LEVEL} competitive programmers
+Programming language: {LANGUAGE}
+Documentation format: {FORMAT} (markdown/latex/html)
+
+Please create detailed documentation including:
+
+1. **Algorithm Overview**:
+   - Clear definition và purpose
+   - Historical background (who invented, when, why)
+   - Real-world applications beyond competitive programming
+   - Visual representation or diagram if applicable
+
+2. **Mathematical Foundation**:
+   - Mathematical principles underlying the algorithm
+   - Formal algorithm description (pseudocode)
+   - Proof of correctness (if applicable)
+   - Complexity analysis với detailed reasoning
+
+3. **Implementation Guide**:
+   - Step-by-step implementation approach
+   - Complete working code với detailed comments
+   - Alternative implementation strategies
+   - Common optimizations và trade-offs
+
+4. **Practical Examples**:
+   - Simple walkthrough example với trace execution
+   - Multiple test cases with expected outputs
+   - Edge cases và how algorithm handles them
+   - Performance comparison với related algorithms
+
+5. **Problem Applications**:
+   - Classic contest problems that use this algorithm
+   - Problem patterns và recognition techniques
+   - Template code for common variations
+   - Modification strategies for different constraints
+
+6. **Learning Resources**:
+   - Prerequisite knowledge required
+   - Recommended learning path
+   - Practice problems (easy → medium → hard)
+   - Additional reading materials
+
+7. **Common Pitfalls**:
+   - Frequent implementation mistakes
+   - Debugging techniques
+   - Performance bottlenecks
+   - Memory management considerations
+
+8. **Advanced Topics** (for intermediate/advanced):
+   - Algorithm variations và extensions
+   - Optimization techniques
+   - Parallel implementations
+   - Research developments
+
+Format requirements:
+- Include code syntax highlighting
+- Add complexity notation in LaTeX format
+- Provide downloadable code templates
+- Include interactive examples where possible
+- Add cross-references to related algorithms
+```
+
+## 8. Algorithm Series Documentation
+
+```
+I want to create a comprehensive documentation series về {ALGORITHM_CATEGORY} (e.g., Graph Algorithms, Dynamic Programming, String Algorithms).
+
+Series specifications:
+- Target level: {SKILL_LEVEL}
+- Number of algorithms: {COUNT}
+- Language focus: {LANGUAGE}
+- Contest platform: {PLATFORM}
+
+For the entire series, create:
+
+1. **Series Introduction**:
+   - Category overview và importance
+   - Prerequisites for the entire series
+   - Learning progression roadmap
+   - How algorithms in this category relate to each other
+
+2. **Individual Algorithm Documentation**:
+   For each algorithm in {ALGORITHM_LIST}, provide:
+   
+   a) **Unified Format**:
+      - Consistent structure across all documents
+      - Cross-references between related algorithms
+      - Difficulty progression indicators
+      - Estimated learning time
+
+   b) **Core Content** (following template from previous prompt):
+      - Overview và mathematical foundation
+      - Implementation với multiple approaches
+      - Examples và applications
+      - Common variations
+
+   c) **Series Integration**:
+      - How this algorithm builds on previous ones
+      - Which algorithms to learn next
+      - Combined usage patterns
+      - Performance comparisons within category
+
+3. **Practical Workshop**:
+   - Hands-on coding exercises
+   - Progressive difficulty challenges
+   - Contest simulation problems
+   - Performance optimization labs
+
+4. **Reference Materials**:
+   - Quick reference cards for each algorithm
+   - Cheat sheets với complexity tables
+   - Template code library
+   - Troubleshooting guide
+
+5. **Assessment Tools**:
+   - Self-evaluation quizzes
+   - Coding challenges với auto-grading
+   - Progress tracking templates
+   - Mastery checklists
+
+Organize as a structured learning curriculum với clear milestones và dependencies.
+```
+
+## 9. Interactive Algorithm Documentation
+
+```
+Create interactive documentation for {ALGORITHM_NAME} that enhances learning through engagement.
+
+Documentation should include:
+
+1. **Interactive Components**:
+   - Step-by-step algorithm visualization
+   - Interactive code editor với immediate feedback
+   - Input/output playground for testing
+   - Performance profiler for different inputs
+
+2. **Adaptive Content**:
+   - Content adjusts based on user's demonstrated understanding
+   - Multiple explanation approaches (visual, mathematical, intuitive)
+   - Personalized practice problem recommendations
+   - Progress-based content unlocking
+
+3. **Multimedia Elements**:
+   - Animated algorithm execution
+   - Audio explanations for complex steps
+   - Video walkthroughs of implementation
+   - Interactive diagrams và flowcharts
+
+4. **Collaborative Features**:
+   - Community-contributed examples
+   - Q&A section với expert answers
+   - User-submitted optimizations
+   - Discussion threads for each section
+
+5. **Assessment Integration**:
+   - Inline quizzes after each concept
+   - Coding challenges với instant validation
+   - Performance benchmarking tools
+   - Skill certification system
+
+6. **Accessibility Features**:
+   - Multiple language support
+   - Screen reader compatibility
+   - Adjustable complexity levels
+   - Offline download options
+
+Technical requirements:
+- Responsive design for mobile/desktop
+- Fast loading với optimized media
+- Search functionality across all content
+- Export options (PDF, EPUB, print)
+- Integration với popular coding platforms
+
+Create both the content structure và technical implementation guidelines.
+```
+
 ## Usage Examples
 
 ### Example 1: Research Dijkstra's Algorithm
