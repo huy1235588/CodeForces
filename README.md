@@ -44,6 +44,7 @@
 -   **📚 Resources**: Books, Courses, Platforms, Tools
 -   **📊 Analytics**: Progress tracking, Performance insights
 -   **⚙️ Configs**: VS Code setup, Templates, Automation scripts
+```
     │ ├── security/                     # Bảo mật hệ thống
     │ └── design-patterns/              # Mẫu thiết kế
     ├── 💼 software-engineering/      # Kỹ thuật phần mềm
@@ -70,7 +71,7 @@
     │ ├── mobile-development/           # Ứng dụng mobile
     │ ├── backend-apis/                 # API và microservices
     │ └── system-implementations/       # Triển khai hệ thống
-    ├── �💻 code/                   # Code mẫu và template
+    ├── 💻 code/                   # Code mẫu và template
     │ ├── Cpp/                          # Templates và solutions C++
     │ ├── Python/                       # Templates và solutions Python
     │ ├── Java/                         # Templates và solutions Java
@@ -92,6 +93,7 @@
     ├── code-analysis/                  # Prompts phân tích code
     ├── INDEX.md                        # Danh mục tổng hợp prompts
     └── quick-reference.md              # Tham khảo nhanh
+```
 
 ### 📚 Thư mục `/docs` - Tài liệu học tập thuật toán
 - **`algorithms/`** - Thuật toán từ cơ bản đến nâng cao
