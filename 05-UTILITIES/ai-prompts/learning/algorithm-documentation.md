@@ -1,80 +1,147 @@
-# 📚 Algorithm Documentation Creation Prompts
+# 📚 Universal Algorithm Documentation Prompt
 
-## 1. Comprehensive Algorithm Documentation
+## 🎯 Master Prompt for Algorithm Documentation
 
 ```
-Act as a senior competitive programming instructor và technical writer. 
+Act as a senior competitive programming instructor, technical writer, and algorithm expert.
 
-Create comprehensive documentation for {ALGORITHM_NAME} algorithm.
+Create comprehensive documentation for {TARGET}.
 
-Target specifications:
-- Audience: {SKILL_LEVEL} competitive programmers
-- Primary language: {PROGRAMMING_LANGUAGE}
-- Secondary languages: {ADDITIONAL_LANGUAGES}
-- Platform focus: {CONTEST_PLATFORM}
-- Documentation length: {LENGTH} (brief/medium/comprehensive)
+### 📋 Configuration
+**Target Type**: {TYPE} (single-algorithm / algorithm-category / language-specific / visual-guide / methodology)
+**Subject**: {ALGORITHM_NAME} or {ALGORITHM_CATEGORY}
+**Audience**: {SKILL_LEVEL} (beginner/intermediate/advanced/mixed)
+**Primary Language**: {PROGRAMMING_LANGUAGE} (C++/Python/Java/JavaScript/multi-language)
+**Secondary Languages**: {ADDITIONAL_LANGUAGES}
+**Platform Focus**: {CONTEST_PLATFORM} (Codeforces/AtCoder/LeetCode/TopCoder/multi-platform)
+**Documentation Scope**: {SCOPE} (brief/standard/comprehensive/reference)
+**Special Focus**: {FOCUS} (contest-ready/educational/visual/performance/theory)
 
-Required sections:
+### 📖 Core Content Structure
 
-### 📖 Algorithm Overview
-- **Definition**: Clear, concise explanation
-- **Purpose**: What problem does it solve?
-- **Category**: Which algorithm family does it belong to?
-- **Inventor/History**: When và who developed it
-- **Key Insight**: The main idea that makes it work
+#### 🌟 Algorithm Overview
+- **Definition**: Clear, precise explanation in simple terms
+- **Purpose**: What specific problem does it solve?
+- **Category**: Algorithm family and classification
+- **Historical Context**: Origin, inventor, evolution
+- **Key Insight**: The fundamental idea that makes it work
+- **Real-world Applications**: Where is it used in practice?
 
-### 🧮 Mathematical Foundation
-- **Formal Definition**: Mathematical notation
-- **Pseudocode**: Step-by-step algorithm description
-- **Proof of Correctness**: Why does it work?
-- **Complexity Analysis**: 
-  - Time complexity với detailed reasoning
-  - Space complexity với memory usage patterns
-  - Best/Average/Worst case scenarios
+#### 🧮 Mathematical Foundation
+- **Formal Definition**: Mathematical notation and formulas
+- **Pseudocode**: Language-agnostic step-by-step description
+- **Correctness Proof**: Why and how it works (appropriate level)
+- **Invariants**: What properties are maintained throughout execution
+- **Complexity Analysis**:
+  - Time complexity with detailed derivation
+  - Space complexity with memory usage patterns
+  - Best/Average/Worst case analysis
+  - Amortized analysis (if applicable)
+  - Comparison with alternative approaches
 
-### 💻 Implementation Details
-- **Core Implementation**: Clean, commented code
-- **Alternative Approaches**: Different implementation styles
-- **Optimization Techniques**: How to make it faster
-- **Memory Optimization**: How to reduce space usage
-- **Error Handling**: Edge cases và boundary conditions
+#### 💻 Implementation Excellence
+- **Reference Implementation**: Clean, well-commented, production-ready code
+- **Contest Template**: Fast-to-type, minimal competitive programming version
+- **Alternative Approaches**: Different implementation styles and their trade-offs
+- **Language-Specific Optimizations**: Leveraging language features and STL
+- **Memory Optimization**: Techniques to reduce space usage
+- **Performance Tuning**: Micro-optimizations and compiler hints
+- **Error Handling**: Robust handling of edge cases and invalid inputs
+- **Testing Framework**: Comprehensive test cases and validation
 
-### 🎯 Practical Examples
-- **Basic Example**: Simple walkthrough với trace
-- **Medium Example**: More complex scenario
-- **Advanced Example**: Challenging use case
-- **Edge Cases**: Boundary conditions
-- **Performance Comparison**: vs related algorithms
+#### 🎯 Progressive Examples
+- **Walkthrough Example**: Detailed step-by-step trace
+- **Basic Applications**: Simple, clear use cases
+- **Intermediate Scenarios**: More complex problem-solving
+- **Advanced Challenges**: Sophisticated applications
+- **Edge Cases**: Boundary conditions and corner cases
+- **Anti-patterns**: What NOT to do and why
+- **Benchmarking**: Performance comparison with alternatives
 
-### 🏆 Contest Applications
-- **Problem Recognition**: How to identify when to use
-- **Common Patterns**: Typical contest problem types
-- **Template Code**: Ready-to-use implementations
+#### 🏆 Competitive Programming Mastery
+- **Problem Recognition**: How to identify when this algorithm applies
+- **Pattern Matching**: Common problem statement characteristics
+- **Template Integration**: How to quickly implement during contests
 - **Modification Strategies**: Adapting for different constraints
-- **Time-Saving Tips**: Implementation shortcuts
+- **Debugging Techniques**: Fast error detection and correction
+- **Time Management**: Implementation speed vs accuracy balance
+- **Contest Pitfalls**: Common mistakes under pressure
+- **Verification Methods**: Quick correctness checking
 
-### 📚 Learning Path
-- **Prerequisites**: What to know first
-- **Learning Steps**: Recommended progression
-- **Practice Problems**: 
-  - Beginner (3-5 problems)
-  - Intermediate (5-7 problems)  
-  - Advanced (3-5 problems)
-- **Related Algorithms**: What to study next
+#### 📚 Learning & Practice Pathway
+- **Prerequisites**: Essential background knowledge
+- **Learning Progression**: Step-by-step mastery approach
+- **Conceptual Understanding**: Building intuition
+- **Implementation Practice**: Coding exercises
+- **Problem Sets**:
+  - Warm-up problems (2-3 easy)
+  - Core practice (5-7 medium)
+  - Challenge problems (3-5 hard)
+  - Contest-style mixed problems
+- **Related Algorithms**: Natural learning progressions
+- **Integration Opportunities**: How it combines with other techniques
 
-### ⚠️ Common Pitfalls
-- **Implementation Mistakes**: Frequent errors
-- **Debugging Strategies**: How to find bugs
-- **Performance Issues**: Common bottlenecks
-- **Contest Mistakes**: Time-pressure errors
+#### ⚠️ Mastery Challenges
+- **Common Implementation Errors**: Frequent bugs and how to avoid them
+- **Debugging Strategies**: Systematic approaches to finding issues
+- **Performance Pitfalls**: Bottlenecks and optimization opportunities
+- **Contest-Specific Mistakes**: Pressure-induced errors
+- **Conceptual Misconceptions**: Wrong mental models
+- **Recovery Strategies**: What to do when things go wrong
 
-### 🔗 Resources
-- **Visualizations**: Interactive tools
-- **Tutorials**: Best learning materials
-- **Practice Platforms**: Where to solve problems
-- **Reference Implementations**: High-quality code
+#### � Visual & Interactive Elements
+- **Algorithm Visualization**: Step-by-step animated explanation
+- **Data Structure Diagrams**: Visual representation of internal state
+- **Complexity Visualization**: Graphs showing scaling behavior
+- **Interactive Examples**: Customizable input scenarios
+- **Comparison Charts**: Performance vs other algorithms
+- **Decision Trees**: When to use this algorithm
 
-Format: Use clear markdown với syntax highlighting, include complexity notation, provide downloadable code templates.
+#### 🌐 Comprehensive Resources
+- **Interactive Visualizations**: Links to visual learning tools
+- **Video Tutorials**: Curated educational content
+- **Practice Platforms**: Specific problem recommendations
+- **Reference Materials**: Books, papers, advanced resources
+- **Community Resources**: Forums, discussion groups
+- **Implementation Libraries**: High-quality code repositories
+- **Benchmark Datasets**: Standard test cases for validation
+
+### 🎨 Documentation Features
+
+#### Format Requirements
+- Clear markdown structure with proper syntax highlighting
+- Mathematical notation using LaTeX where appropriate
+- Downloadable code templates in multiple languages
+- Interactive elements (when possible)
+- Cross-references and navigation aids
+- Accessibility considerations for different learning styles
+
+#### Quality Standards
+- ✅ Technical accuracy and correctness
+- ✅ Clear, progressive explanations
+- ✅ Multiple implementation examples
+- ✅ Comprehensive test coverage
+- ✅ Real-world applicability
+- ✅ Contest readiness
+- ✅ Educational effectiveness
+- ✅ Maintenance sustainability
+
+#### Customization Options
+**For Visual Learners**: Emphasize diagrams, animations, and interactive elements
+**For Contest Focus**: Prioritize templates, patterns, and speed techniques
+**For Academic Study**: Deep-dive into theory, proofs, and mathematical rigor
+**For Practical Application**: Focus on real-world uses and implementation details
+**For Language-Specific**: Optimize for particular programming language idioms
+
+### 🚀 Output Expectations
+Deliver documentation that serves as:
+- **Learning Resource**: Clear tutorial for understanding
+- **Reference Guide**: Quick lookup for implementation details
+- **Practice Manual**: Structured exercises for skill building
+- **Contest Preparation**: Ready-to-use templates and strategies
+- **Teaching Material**: Resources for instructors and mentors
+
+Generate content that balances depth with accessibility, theory with practice, and educational value with practical utility.
 ```
 
 ## 2. Algorithm Category Documentation
